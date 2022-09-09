@@ -1,11 +1,8 @@
-import Head from "next/head";
-
+import Meta from "../components/Meta";
 const login = () => {
   return (
     <div>
-      <Head>
-        <title>Login</title>
-      </Head>
+      <Meta title="Login" />
       <h1>Login page</h1>
     </div>
   );
